@@ -1,5 +1,5 @@
 // import React from 'react';
-import { LineChart as LChart, Line } from "recharts";
+import { LineChart as LChart, XAxis, YAxis, Line } from "recharts";
 
 const LineChart = () => {
   const students = [
@@ -17,6 +17,8 @@ const LineChart = () => {
   return (
     <div>
       <LChart width={500} height={400} data={students}>
+        <XAxis></XAxis>
+        <YAxis></YAxis>
         <Line dataKey="math_mark"></Line>
       </LChart>
     </div>

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { AiFillCheckCircle } from "react-icons/ai";
 
 const Features = ({ feature }) => {
-  console.log(feature);
+  // console.log(feature);
   return (
     <p className="flex items-center gap-2">
       {" "}
