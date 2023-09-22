@@ -3,7 +3,7 @@
 import PropTypes from "prop-types";
 
 const Link = ({ route }) => {
-  console.log(route);
+  // console.log(route);
   //   const { name, id, path } = route;
   return (
     <div>
